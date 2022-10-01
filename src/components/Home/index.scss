@@ -8,7 +8,6 @@
         max-height: 90%;
     }
     h1 {
-
         color: #EBEBE3;
         font-size: 53px;
         margin: 0;
@@ -58,15 +57,17 @@
         animation: fadeIn 1s 1.8s backwards;
     }
 
+
     .flat-button {
-        color: aliceblue;
+        background: black;
+        color: pink;
+        outline-style: inset;
         font-size: 18px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid #e0ffff;
         margin-top: 25px;
         animation: fadeIn 1s 3.3s backwards
     }

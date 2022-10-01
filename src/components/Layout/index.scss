@@ -10,7 +10,7 @@
 }
 
 .tags {
-    color: #ffd700;
+    color: #FCDAB7;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
@@ -36,4 +36,43 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+}
+
+.about-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        transform: translateY(-50%) ;
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1 {
+            font-size: 400px;
+            font-weight: 111;
+            margin-top: 10;
+            margin-bottom: 40px;
+            color: #CDFFEB;
+            opacity: 0.39;
+        }
+    }
+    p {
+            font-style: italic;
+            font-size: 23px;
+            font-weight: 200;
+            color: aliceblue;
+            opacity: 0.8;
+            background: rgba(95, 158, 160, 0.99) ;
+            font-family: 'Helvetica Neue';
+            width: 200%;
+            transform: translateY(250%) ;
+            animation: fadeIn 1.3s 1s forwards;
+            padding-left: 10%;
+            outline-style: inset;
+            outline-width: 2px;
+
+        }
+
 }

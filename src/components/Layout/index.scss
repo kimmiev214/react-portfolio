@@ -38,7 +38,8 @@
     animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
     .text-zone {
         position: absolute;
         left: 10%;
@@ -57,7 +58,16 @@
             color: #CDFFEB;
             opacity: 0.39;
         }
+
+        h2 {
+            font-family: 'Helvetica Neue';
+            font-weight: 100;
+            font-size: 55px;
+            color: #FCDAB7;
+        }
     }
+
+
     p {
             font-style: italic;
             font-size: 23px;

@@ -95,6 +95,10 @@
               }
           }
 
+          .arrow:hover {
+            transform: translateY(-3px);
+            background: #FCDAB7;
+          }
 
     }
 }

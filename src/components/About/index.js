@@ -9,7 +9,7 @@ const About = () => {
                 </h1>
             </div>
             <div className='text-zone'>
-                <p>I am a female in STEM who is passionate about creating change.  Recent graduate at the University of Maryland Global Campus with a B.S. in Computer Science.</p>
+                <p> I am a female in STEM who is passionate about creating change.  Recent graduate at the University of Maryland Global Campus with a B.S. in Computer Science.</p>
                 <p>
                 I have a strong desire to learn new skills and have the work ethic and determination to continuously develop them in a changing environment.
                 </p>

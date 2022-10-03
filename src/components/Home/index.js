@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import LogoTitle from '../../assets/images/logok.png'
+import LogoTitle from '../../assets/images/KVLOGO.png'
 import './index.scss';
 
 const Home = () => {

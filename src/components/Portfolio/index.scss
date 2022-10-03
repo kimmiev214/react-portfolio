@@ -1,0 +1,100 @@
+.portfolio-page {
+    .text-zone {
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        transform: translateY(-50%) ;
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1 {
+            font-size: 400px;
+            font-weight: 111;
+            margin-top: 10;
+            margin-bottom: 40px;
+            color: #CDFFEB;
+            opacity: 0.39;
+        }
+    }
+    h2 {
+            position: relative;
+            transform: translateY(-50%) ;
+            transform: translateX(10%);
+            font-family: 'Helvetica Neue';
+            font-weight: 100;
+            font-size: 55px;
+            color: #FCDAB7;
+        }
+
+    .images-container {
+        display: flex;
+        padding-left: 100px;
+        gap: 15px;
+        flex-wrap: wrap;
+        transform: translateY(50%) ;
+    }
+
+    .image-box {
+        margin-top: 50px;
+        margin-left: 20px;
+        position: relative;
+        flex: 1 1 20%;
+        display: block;
+        height: 265px;
+        overflow: hidden;
+        border-radius: 10px;
+        max-width: calc(25% - 10px);
+
+        .portfolio-image {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+        .content {
+            font-family: 'Courier New';
+            font-weight: 400;
+            font-size: 12px;
+            color: #050505;
+            position: absolute;
+            width: 100%;
+            z-index: 3;
+            padding: 10px 10px;
+            transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+            background: linear-gradient(
+                180deg,
+                rgba(0,0,0,0.2) 0,
+                rgba(252,218,183,1)
+            );
+            bottom: -20px;
+
+            .title {
+                font-family: 'Helvetica Neue';
+                font-weight: bold;
+            }
+
+
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            font-family: 'Helvetica Neue';
+            font-weight: bold;
+
+            .right {
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+              }
+          }
+
+
+    }
+}

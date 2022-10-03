@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/vmu/logo.jpg",
+            "title": "Course Registration Website",
+            "description": "Flask with Python, Bootstrap, SQLAlchemy, Heroku",
+            "url": "https://vmuniversity.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/vmu/animation.png",
+            "title": "3D Animation",
+            "description": "JavaScript",
+            "url": "https://github.com/kimmiev214/JavaScript_Tutorial"
+        },
+        {
+            "cover": "/portfolio/vmu/filedirectory.png",
+            "title": "File Directory Processor",
+            "description": "Java",
+            "url": "https://github.com/kimmiev214/java-projects/tree/main/OperatingSystemsHW6"
+        }
+    ]
+}
